@@ -1,0 +1,135 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+}
+.page {
+  max-width: 7.5rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  flex: 1;
+  overflow: auto;
+}
+.wrap::-webkit-scrollbar {
+  display: none;
+}
+.headCon .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.headCon .menu span {
+  width: .12rem;
+  height: .12rem;
+  background: #000;
+  border-radius: 50%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .5rem;
+  box-sizing: border-box;
+  height: 1.2rem;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+  background: #fff;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+.footer a img {
+  width: .52rem;
+  height: auto;
+}
+.footer a p {
+  font: 0.2rem/0.43rem "微软雅黑";
+  color: #818181;
+}
+.headCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .88rem;
+  padding: .40rem .23rem 0;
+  background: #f26b11;
+}
+.headCon .return img {
+  width: auto;
+  height: .29rem;
+}
+.headCon h3 {
+  font: 0.35rem/0.88rem "微软雅黑";
+  color: #fff;
+}
+.headCon .menu span {
+  background: #fff;
+}
+.goodsSort {
+  display: flex;
+  border-top: .02rem solid #f1f1f1;
+  border-left: 1px solid #f1f1f1;
+  /* min-height: calc(97.52%); */
+  height: 99.9%;
+}
+.goodsSort .aside {
+  border-right: 1px solid #d9d9d9;
+  padding-top: .38rem;
+}
+.goodsSort .aside li {
+  margin-bottom: .61rem;
+  margin-left: -1px;
+}
+.goodsSort .aside li span {
+  display: block;
+  font: 0.26rem/0.52rem "微软雅黑";
+  color: #666666;
+  padding: 0 .39rem;
+  border-left: .08rem solid transparent;
+}
+.goodsSort .aside .active span {
+  color: #f26b11;
+  border-left-color: #f26b11;
+}
+.goodsSort .right {
+  flex: 1;
+  padding-top: .05rem;
+}
+.goodsSort .right > div {
+  padding: 0 0 .25rem .27rem;
+}
+.goodsSort .right > div .title {
+  padding: 0 .44rem 0 .28rem;
+}
+.goodsSort .right > div .title h3 {
+  float: left;
+  font: 0.26rem/1.23rem "微软雅黑";
+  color: #454545;
+}
+.goodsSort .right > div .title a {
+  float: right;
+  font: 0.24rem/1.23rem "微软雅黑";
+  color: #666666;
+}
+.goodsSort .right > div ul {
+  display: flex;
+  padding-right: .3rem;
+  margin-bottom: .18rem;
+}
+.goodsSort .right > div ul li{
+  margin-right: .2rem;
+}
+
+.goodsSort .right > div ul li img {
+  height: 1.52rem;
+  width: auto;
+}
+.goodsSort .right > div ul li p {
+  text-align: center;
+  font: 0.24rem/0.57rem "微软雅黑";
+  color: #878787;
+}

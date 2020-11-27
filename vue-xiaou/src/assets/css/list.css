@@ -1,0 +1,133 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+}
+.page {
+  max-width: 7.5rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  flex: 1;
+  overflow: auto;
+}
+.wrap::-webkit-scrollbar {
+  display: none;
+}
+.headCon .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.headCon .menu span {
+  width: .12rem;
+  height: .12rem;
+  background: #000;
+  border-radius: 50%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .5rem;
+  box-sizing: border-box;
+  height: 1.2rem;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+  background: #fff;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+.footer a img {
+  width: .52rem;
+  height: auto;
+}
+.footer a p {
+  font: 0.2rem/0.43rem "微软雅黑";
+  color: #818181;
+}
+.headCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .88rem;
+  padding: .40rem .23rem .22rem;
+}
+.headCon .return img {
+  width: auto;
+  height: .32rem;
+}
+.headCon .logo img {
+  width: auto;
+  height: 0.29rem;
+}
+.search {
+  text-align: center;
+}
+.search input {
+  width: 6.23rem;
+  font: 0.28rem/0.77rem "微软雅黑";
+  background: #f26b11 url(../images/search.jpg) no-repeat 2.38rem 0.26rem;
+  background-size: auto .27rem;
+  color: #fff;
+  text-indent: 2.87rem;
+  border-radius: .4rem;
+}
+.search input::-webkit-input-placeholder {
+  color: #fff;
+}
+.search input::-moz-placeholder {
+  color: #fff;
+}
+.search input:-ms-input-placeholder {
+  color: #fff;
+}
+.search input::-ms-input-placeholder {
+  color: #fff;
+}
+.search input::placeholder {
+  color: #fff;
+}
+.goods {
+  padding: .28rem .24rem 1.36rem;
+}
+.empty{
+  width: 3rem;
+  margin: 3rem auto;
+}
+.empty p{
+  text-align: center;
+  font-size: .4rem;
+}
+.goods li>div {
+  display: flex;
+  padding: .26rem 0 .15rem .21rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+.goods li>div img {
+  height: 1.6rem;
+  width: auto;
+}
+.goods li>div .right {
+  padding-left: .4rem;
+}
+.goods li>div .right h3 {
+  font: 0.26rem/0.34rem "微软雅黑";
+  color: #333333;
+  padding-bottom: .04rem;
+}
+.goods li>div .right p {
+  font: 0.24rem/0.47rem "微软雅黑";
+  color: #989898;
+}
+.goods li>div .right p span {
+  font: 0.26rem/0.47rem Arial;
+}
+.goods li>div .right .price {
+  font: 0.32rem/0.47rem Arial;
+  color: #e43a3d;
+}
