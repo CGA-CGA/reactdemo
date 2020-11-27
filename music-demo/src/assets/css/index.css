@@ -1,0 +1,47 @@
+.index .navTitle{
+    height: 1.68rem;
+    width: 100%;
+    background: #d43c33;
+    color: #fff;
+    line-height: 1.68rem;
+    padding-left: 10px;
+}
+.index .navBar{
+    height: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.8rem;
+    display: flex;
+}
+.navBar a{
+    flex:1;
+    text-align: center;
+    color: #333;
+    font-size: 17px;
+}
+.index .active{
+    color: #DD001B;
+    position: relative;
+}
+.index .active::after{
+    /* position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #DD001B;
+    bottom: 4px;
+    left: 4px;
+    z-index: 1;
+     */
+
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: -1px;
+    z-index: 3;
+    width: 50%;
+    height: 4px;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background: #dd001b;
+    
+}
